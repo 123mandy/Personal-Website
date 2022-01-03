@@ -59,6 +59,13 @@ body{
     padding: 200px 0;
 }
 
+#mainImage p{
+   font-size: 20px;
+   font-weight: lighter;
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.5);
+}
+
 
 .gradient_all {
     width: 70%;
@@ -82,7 +89,7 @@ body{
 }
 
 #introMandyTitle{
-    font-size: 35px;
+    font-size: 40px;
     font-weight:700;
     padding: 100px 0 30px 0;
     text-align: center;
@@ -90,7 +97,7 @@ body{
 }
 
 #introMandy {
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     margin-bottom: 70px;
 }
@@ -303,5 +310,26 @@ body{
         display: block;
         margin-left: auto;
         margin-right: auto;
+}
+
+@media (max-width:900px){
+    .contactMandy{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.contactTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 }
