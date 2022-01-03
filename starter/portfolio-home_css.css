@@ -1,0 +1,307 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navBarLogo a{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-nav{
+    font-size: 1.2rem;
+    color: black;
+}
+
+#mainNavbar {
+   padding: 0 0 0 0;
+}
+
+#mainNavbar .nav-link {
+    margin:0 20px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 300;
+    padding: 0 0 0 0;
+}
+
+.content {
+    margin-bottom: 100px;
+}
+
+.nav-link:hover{
+    text-decoration: underline white;
+    text-underline-offset:10px;
+    text-decoration-thickness: 2px;
+}
+
+.navbar.scrolled{
+    background-color: #1A5F7A;
+}
+
+#mainText {
+    font-size: 70px;
+    font-weight: 700;
+    padding: 200px 0;
+}
+
+#addBorder_1 {
+    width: 100%;
+    background-image: url("imgs/woman.jpeg");
+    background-size: cover;
+    object-position: center top;
+}
+
+#mainText span{
+    color: #BAD7DF;
+}
+
+#mainImage{
+    padding: 200px 0;
+}
+
+
+.gradient_all {
+    width: 70%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#introMandyTitle{
+    font-size: 35px;
+    font-weight:700;
+    padding: 100px 0 30px 0;
+    text-align: center;
+    color: white;   
+}
+
+#introMandy {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+#previousWork {
+    width:100%;
+    font-size: 35px;
+    font-weight:700;
+    padding: 100px 0 30px 0;
+    text-align: center;
+    color: #444F5A;
+}
+
+#introWork {
+    width:100%;
+    font-size: 20px;
+    font-weight:1400;
+    padding: 0 0 30px 0;
+    text-align: center;
+    color: #BBBBBB;
+
+}
+
+#workImage {
+    width: 90%;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+}
+#img_group img{
+    width: 30%;
+    margin: calc(7%/6);
+
+}
+
+.descrip {
+    width: 30%;
+    background-color: #F6F6F6;
+    margin: calc(7%/6);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.descrip_1 {
+    width: 35%;
+    background-color: #99DDCC;
+    margin: calc(7%/6);
+    border-radius: 15px 15px 15px 15px;
+}
+    
+
+
+
+
+
+
+.descrip_2 {
+    width: 40%;
+    background-color: #FFE2E2;
+    margin: calc(7%/6);
+    border-radius: 15px 15px 15px 15px;
+}
+.descrip_3 {
+    width: 45%;
+    background-color: #BAD7DF;
+    margin: calc(7%/6);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.imageTitle {
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.imageDescrip {
+    font-size: 15px;
+    color: #444F5A;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#copyright {
+    width: 100%;
+    text-align: center;
+    margin:100px 0 0 0;
+    font-size: 10px;
+    color: #444F5A;
+}
+
+#download {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.cvtitle{
+    width: 80%;
+    text-align: center; 
+    letter-spacing: 10px;
+    border-width: 2px;
+    border: solid #F9D371;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+
+.hr_info{
+    text-align: center;
+    justify-content: center;
+}
+.hr {
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-weight: 300;
+
+}
+.hr_address {
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+
+}
+
+.mainLetter {
+    width: 70%;
+    font-size: 20px;
+    text-align: left;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+   border: solid #F9D371;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+}
+
+.contactTitle {
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-weight: 300;
+
+    margin-left: auto;
+   margin-right: auto;
+   display: block;
+   text-align: center;
+}
+
+.contactInfo{
+   
+    margin-left: 0;
+   margin-right: auto;
+   display: block;
+   font-size: 20px;
+   text-align: center;
+}
+
+.contactMandy {
+    width: 70%;
+    margin-left: 0;
+    margin-right: 100px;
+    background-color: #F9D371;
+    padding: 50px 50px 50px 50px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.facebook {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.ins {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.linkin {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.github {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+
+
+@media (max-width:900px){
+    #img_group img{
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+}
